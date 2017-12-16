@@ -1,0 +1,11 @@
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\bin\Debug\Pythagorean triple generator.exe.config
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\bin\Debug\Pythagorean triple generator.exe
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\bin\Debug\Pythagorean triple generator.pdb
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\bin\Debug\Pythagorean triple generator.xml
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\obj\Debug\Pythagorean triple generator.vbprojResolveAssemblyReference.cache
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\obj\Debug\Pythagorean_triple_generator.Resources.resources
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\obj\Debug\Pythagorean triple generator.vbproj.GenerateResource.Cache
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\obj\Debug\Pythagorean triple generator.exe
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\obj\Debug\Pythagorean triple generator.xml
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\obj\Debug\Pythagorean triple generator.pdb
+D:\wasse\Documents\GitHub\Pythagorean_triple_generator\vb.net\Pythagorean triple generator\Pythagorean triple generator\obj\Debug\Pythagorean_triple_generator.LTo.resources
