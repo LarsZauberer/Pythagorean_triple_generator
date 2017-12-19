@@ -7,4 +7,6 @@ The program is written in:
 
 Python 2.7
 
-vb.net
+vb.net(not good)
+
+C++

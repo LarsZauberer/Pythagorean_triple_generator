@@ -1,0 +1,5 @@
+﻿  Pythagorean triple generator.cpp
+d:\wasse\documents\github\pythagorean_triple_generator\c++\pythagorean triple generator\pythagorean triple generator\pythagorean triple generator.cpp(21): warning C4216: nonstandard extension used: float long
+d:\wasse\documents\github\pythagorean_triple_generator\c++\pythagorean triple generator\pythagorean triple generator\pythagorean triple generator.cpp(26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Pythagorean triple generator.vcxproj -> D:\wasse\Documents\GitHub\Pythagorean_triple_generator\C++\Pythagorean triple generator\Debug\Pythagorean triple generator.exe
+  Pythagorean triple generator.vcxproj -> D:\wasse\Documents\GitHub\Pythagorean_triple_generator\C++\Pythagorean triple generator\Debug\Pythagorean triple generator.pdb (Full PDB)

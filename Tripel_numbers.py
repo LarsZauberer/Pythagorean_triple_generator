@@ -32,4 +32,4 @@ while S == 0:
         B = B+1
     #Make A bigger
     A = A+1
-Pause = raw_input()
+Break = raw_input()
