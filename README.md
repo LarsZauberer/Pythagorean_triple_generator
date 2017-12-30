@@ -10,7 +10,6 @@ Python 2.7
 vb.net(not good)
 
 C++
-
 # Installation
 <h2>Python</h2>
 1. To Install Python download the file: "Tripel_numbers.py"
