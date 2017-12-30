@@ -14,17 +14,14 @@ C++
 # Installation
 <h2>Python</h2>
 1. To Install Python download the file: "Tripel_numbers.py"
-
 2. Then you can run this script.
 
 <h2>vb.net</h2>
 1. You musst download the file: "Pythagorean triple generator.exe" It is in the vb.net folder.
-
 2. Then you can run this file.
 
 <h2>C++</h2>
 1. Donwload the file named: "Pythagorean triple generator(C++).exe"
-
 2. Then you can run this file also.
 
 # Using
