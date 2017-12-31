@@ -2,8 +2,11 @@
 This script generate Pythagorean triples.</br>
 It lists all integer triples within a given range.</br>
 The program is written in:</br>
+
 Python 2.7</br>
+
 vb.net(not good)</br>
+
 C++</br>
 
 # Installation
