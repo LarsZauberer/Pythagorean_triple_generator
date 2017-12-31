@@ -1,42 +1,67 @@
-#Define the function
-def Search_Numbers(From, To, SaveType, List):
-    import math
-    A = int(From)
-    B = A
-    S = 0
-    while S == 0:
-        #Calculation
-        C = math.sqrt(A*A+B*B)
-        #Is it a tripel?
-        if float(int(C)) == C:
-            if SaveType == "show":
-                print (str(A) + "/" + str(B) + "/" + str(int(C)))
+# tripel_numbers.py
+# Application form LarsGaming
+# Author: LarsZauberer
+"""tripel_numbers.py
+Returns LIST of pythagorean triple numbers in the given range
+"""
+import math
+
+# Define the search function
+def search_numbers(from_nbr, to_nbr, save_type, listing):
+    """search_numbers(from_nbr, to_nbr, save_type, listing).
+    -> returns LIST of pythagorean triple numbers in the given range
+    Keywords:
+    from_nbr:   starting number as base of the triple
+    to_nbr:     highest number as base of the triple
+    save_type:  SHOW, LIST or SAVE
+    listing:    Listobject to return the LIST if save_type is 'LIST'
+    """
+    var_a = int(from_nbr)
+    var_b = var_a
+    var_c = 0
+    var_s = 1
+    while var_s:
+        # Calculation
+        var_c = math.sqrt(var_a*var_a+var_b*var_b)
+        # Is it a tripel?
+        if float(int(var_c)) == var_c:
+            if save_type == "SHOW":
+                print(str(var_a) + "/" + str(var_b) + "/" + str(int(var_c)))
             else:
-                List.insert(str(A) + "/" + str(B) + "/" + str(int(C)))
-        #Is the end reached?
-        if B == To:
-            if A == To:
-                S = 1
-        #Make B bigger and reset A
-        if A == To:
-            A = B
-            B = B+1
-        #Make A bigger
-        A = A+1
-    if SaveType == "list":
-        return List
-    elif SaveType == "save":
-        with open("Tripels.txt") as f:
-            f.write(List)
+                listing.insert(str(var_a) + "/" + str(var_b) + "/" + str(int(var_c)))
+        # Is the end reached?
+        if var_b == int(to_nbr):
+            if var_a == int(to_nbr):
+                var_s = 0
+        # Make B bigger and reset A
+        if var_a == int(to_nbr):
+            var_a = int(from_nbr)
+            var_b = var_b+1
+        # Make A bigger
+        var_a = var_a+1
+    if save_type == "LIST":
+        return listing
+    elif save_type == "SAVE":
+        with open("Tripels.txt") as file:
+            file.write(listing)
+        return EnvironmentError(file)
     else:
         return 0
+# End of function "Search_Numbers"
 
-#Input of range
-print ("From:")
-Test_From = input()
-print ("To:")
-Test_To = input()
+# Stat of the Main App
+# Input of range with verification on correct input
+try:
+    TEST_FROM = float(input("Number to Start from (FROM): "))
+except:
+    print("Please type in a number!")
+try:
+    TEST_TO = float(input("Maximum Number to go (TO):   "))
+except:
+    print("Please type in a number!")
+print("OK : From " + str(TEST_FROM) +" to " + str(TEST_TO))
+print("Starting by rounding the numbers")
+search_numbers(int(round(float(TEST_FROM))), int(round(float(TEST_TO))), "SHOW", 0)
 
-Search_Numbers(Test_From, Test_To, "show", 0)
-
-Break = input()
+print("Ende: Please press a ENTER!")
+END_PROGRAM = input()
