@@ -28,7 +28,7 @@ def search_numbers(from_nbr, to_nbr, save_type):
             if save_type == "SHOW":
                 print(str(var_a) + "/" + str(var_b) + "/" + str(int(var_c)))
             else:
-                listing.append(str(var_a) + " / " + str(var_b) + " / " + str(int(var_c)) + " \n")
+                listing.append(str(var_a) + " / " + str(var_b) + " / " + str(int(var_c)))
         # Is the end reached?
         if var_b == int(to_nbr):
             if var_a == int(to_nbr):
@@ -42,9 +42,10 @@ def search_numbers(from_nbr, to_nbr, save_type):
     if save_type == "LIST":
         return listing
     elif save_type == "SAVE":
-        with open("Tripels.txt") as file:
-            file.write(listing)
-        return EnvironmentError(file)
+        with open("Tripels.txt", "a+") as file:
+            for i in listing:
+                file.write(i + "\n")
+        return 0
     else:
         return 0
 # End of function "Search_Numbers"
@@ -61,7 +62,7 @@ except ValueError:
     print("Please type in a number!")
 print("OK : From " + str(TEST_FROM) +" to " + str(TEST_TO))
 print("Starting by rounding the numbers")
-ERGEBNIS = search_numbers(int(round(float(TEST_FROM))), int(round(float(TEST_TO))), "LIST")
+ERGEBNIS = search_numbers(int(round(float(TEST_FROM))), int(round(float(TEST_TO))), "SAVE")
 if ERGEBNIS != 0:
     print(ERGEBNIS)
 print("Ende: Please press a ENTER!")
