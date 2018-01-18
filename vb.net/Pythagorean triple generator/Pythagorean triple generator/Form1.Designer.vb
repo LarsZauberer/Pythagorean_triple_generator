@@ -35,19 +35,19 @@ Partial Class LTo
         '
         'From
         '
-        Me.From.Location = New System.Drawing.Point(146, 276)
+        Me.From.Location = New System.Drawing.Point(55, 276)
         Me.From.Maximum = New Decimal(New Integer() {1661992959, 1808227885, 5, 0})
         Me.From.Name = "From"
-        Me.From.Size = New System.Drawing.Size(100, 20)
+        Me.From.Size = New System.Drawing.Size(144, 20)
         Me.From.TabIndex = 0
         Me.From.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'ToN
         '
-        Me.ToN.Location = New System.Drawing.Point(299, 276)
+        Me.ToN.Location = New System.Drawing.Point(236, 276)
         Me.ToN.Maximum = New Decimal(New Integer() {1661992959, 1808227885, 5, 0})
         Me.ToN.Name = "ToN"
-        Me.ToN.Size = New System.Drawing.Size(100, 20)
+        Me.ToN.Size = New System.Drawing.Size(144, 20)
         Me.ToN.TabIndex = 1
         Me.ToN.Value = New Decimal(New Integer() {9, 0, 0, 0})
         '
@@ -56,7 +56,7 @@ Partial Class LTo
         Me.LFrom.AutoSize = True
         Me.LFrom.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.LFrom.ForeColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.LFrom.Location = New System.Drawing.Point(100, 276)
+        Me.LFrom.Location = New System.Drawing.Point(9, 276)
         Me.LFrom.Name = "LFrom"
         Me.LFrom.Size = New System.Drawing.Size(40, 17)
         Me.LFrom.TabIndex = 2
@@ -67,7 +67,7 @@ Partial Class LTo
         Me.LToN.AutoSize = True
         Me.LToN.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.LToN.ForeColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.LToN.Location = New System.Drawing.Point(268, 276)
+        Me.LToN.Location = New System.Drawing.Point(205, 276)
         Me.LToN.Name = "LToN"
         Me.LToN.Size = New System.Drawing.Size(25, 17)
         Me.LToN.TabIndex = 3
