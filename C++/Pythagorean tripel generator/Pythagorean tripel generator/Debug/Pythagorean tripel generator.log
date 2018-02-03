@@ -1,5 +1,0 @@
-﻿  main.cpp
-d:\wasse\documents\github\pythagorean_triple_generator\c++\pythagorean tripel generator\pythagorean tripel generator\main.cpp(16): warning C4216: nonstandard extension used: float long
-d:\wasse\documents\github\pythagorean_triple_generator\c++\pythagorean tripel generator\pythagorean tripel generator\main.cpp(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Pythagorean tripel generator.vcxproj -> D:\wasse\Documents\GitHub\Pythagorean_triple_generator\C++\Pythagorean tripel generator\Debug\Pythagorean tripel generator.exe
-  Pythagorean tripel generator.vcxproj -> D:\wasse\Documents\GitHub\Pythagorean_triple_generator\C++\Pythagorean tripel generator\Debug\Pythagorean tripel generator.pdb (Full PDB)
